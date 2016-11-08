@@ -1,0 +1,58 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    background: #4585c5;
+}
+.background{
+    background: url(background02.png) no-repeat;
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+.text{
+    position: absolute;
+    width: 450px;
+    height: 320px;
+    top: 370px;
+    left: 400px;
+}
+.title{
+    font-size: 43px;
+    margin-bottom: 10px;
+}
+.title__hi{
+    color:#4585c5;
+}
+.paragraph{
+    font-weight: 300;
+    color: #2f2f2f;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 0;
+}
+.logo{
+    position: absolute; 
+    top: 850px;
+    left: 700px;
+    width: 400px;
+}
+.list{
+    list-style: none;
+}
+.el{
+    display: inline-block;
+    
+}
+.link{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 14px;
+}
+.el a:hover {
+    font-size: 16px;
+}
+.el__slach a:after {
+    content: "//";
+    margin-right: 10px;
+    margin-left: 10px;
+}
